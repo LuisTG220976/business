@@ -18,7 +18,7 @@ header{
     max-width: 1200px;
     height: 100%;
     margin: auto;
-    padding: 40px;
+    padding: 0;
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -112,12 +112,13 @@ main{
 }
 /**/
 .container_slide{
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 90px;
 }
 .container_slide h2{
-    justify-content: center;
-    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    
 }
 
 
@@ -125,7 +126,7 @@ main{
 /*Banner*/
 
 .container__banner{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .banner{
     height: 250px;
