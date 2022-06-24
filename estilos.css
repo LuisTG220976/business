@@ -117,12 +117,9 @@ main{
 }
 .container_slide h2{
     margin-top: 10px;
-    text-align: center;
+    text-align:left;
     
 }
-
-
-
 /*Banner*/
 
 .container__banner{
