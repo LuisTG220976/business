@@ -189,8 +189,10 @@ header{
 
 
 footer{
-    background: #64ef4c;
+    background: #77b967;
     height: 100%;
+    display: flex;
+    
     
 }
 .footerContenido{
@@ -198,10 +200,17 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 200px;
 }
-
+.footerSocial{
+    display: flex;    
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap:nowrap;
+    padding-top: 35px;
+    padding-bottom: 200px;
+}
 
 
 /*
