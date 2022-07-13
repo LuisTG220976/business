@@ -142,8 +142,8 @@ header{
 }
 .container_slide{
     background: #f2f2f2;
-    width: 100%;
-    max-width: 1200px;
+    width: 180%;
+    max-width: 1400px;
     overflow: hidden;
     margin: 0 auto;
     padding: 60px 0;
@@ -156,7 +156,25 @@ header{
 /*Promociones*/
 .promociones{
     background:white;
+    
 }
+
+
+.img-promos{
+    padding:5px;
+    width: 330px;
+    height: 80%;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    margin-top: 50px;
+ 
+
+
+
+
+}
+
 
 /*Categorias*/
 .categorias{
@@ -189,7 +207,7 @@ header{
 
 
 footer{
-    background: #77b967;
+    background: #f35252;
     height: 100%;
     display: flex;
     
