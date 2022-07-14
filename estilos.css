@@ -10,11 +10,12 @@
     background: #9b1818;
 }*/
 header{
-    height: 100px;      
+    height: 100px;   
+    
 }
 .contenedor{
     width: 95%;
-    max-width: 1140px;
+    max-width: 1400px;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
@@ -22,18 +23,18 @@ header{
     padding-bottom: 30px;
 }
 .container__header{
-    max-width: 1200px;
-    height: 100%;
+    max-width: 1440px;
+    height: 100px;
     margin: auto;
     padding: 0;
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     
 }
 .logo img{
-    width: 150px;
+    width: 120px;
 }
 
 .menu nav ul{
@@ -51,7 +52,10 @@ header{
     transition: opaciy 300ms;    
 }
 .menu nav ul li a:hover{
-    opacity: 0.2;
+    
+    font-size: 18px;
+    text-decoration: underline;
+    color: rgba(254,131,71,255);
 }
 .btn__header-register,
 .btn__register-cover{
@@ -75,8 +79,8 @@ header{
 
 /* fin header */
 .container_cover{
-    width: 95%;
-    max-width: 1140px;
+    width: 500%;
+    max-width: 1440px;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
@@ -89,7 +93,7 @@ header{
     margin-top: 60px;
 }
 .text__information-cover{
-    width: 50%;
+    width: 80%;
 }
 .text__information-cover h1{
     font-size: 50px;
@@ -117,7 +121,7 @@ header{
     color: #000;
 }
 .media__cover{
-    width: 45%;    
+    width: 65%;    
 }
 .media__cover video{
     width: 100%;
@@ -142,20 +146,26 @@ header{
 }
 .container_slide{
     background: #f2f2f2;
-    width: 180%;
+    width: 100%;
     max-width: 1400px;
     overflow: hidden;
     margin: 0 auto;
-    padding: 60px 0;
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding: 10px 0;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
-
+.d-block{
+    width: 100%;
+}
 
 /*Fin Productos*/
 /*Promociones*/
 .promociones{
     background:white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -176,13 +186,13 @@ header{
 }
 
 
-/*Categorias*/
+/*Categorias Card*/
 .categorias{
    background: #f2f2f2;
 }
 .container_card{
     width: 95%;
-    max-width: 1140px;
+    max-width: 1440px;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
