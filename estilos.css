@@ -101,6 +101,8 @@ header{
 .text__information-cover p{
     font-size: 18px;
     margin-top: 45px;
+    padding:0 20px;
+    text-align:justify;
 }
 .buttons__cover{
     display: flex;
@@ -131,28 +133,34 @@ header{
 }
 /*carousel*/
 
-.carousel{
-    margin-top: 0px;
-    padding: 60px;
+/*.carousel{
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px;
 }
 .carousel h2{
     margin-top: 0px;
     text-align:left;    
-}
+}*/
+
 /*Fin carousel*/
 
 /*Productos*/
 .productos{
     background: #f2f2f2;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
 }
 .container_slide{
     background: #f2f2f2;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1850px;
     overflow: hidden;
     margin: 0 auto;
     padding: 10px 0;
-    padding-top:10px;
+    padding-top:30px;
     padding-bottom: 10px;
 }
 .d-block{
