@@ -217,7 +217,7 @@ header{
 
 
 footer{
-    background: #f35252;
+    background: rgba(255,208,126,255);
     height: 100%;
     display: flex;
     
