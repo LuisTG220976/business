@@ -15,12 +15,13 @@ header{
 }
 .contenedor{
     width: 95%;
-    max-width: 1400px;
+    max-width: 1440px;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
     padding-top:30px;
     padding-bottom: 30px;
+   
 }
 .container__header{
     max-width: 1440px;
@@ -131,21 +132,8 @@ header{
     margin-top: 20px;
     border-radius: 10px;
 }
-/*carousel*/
 
-/*.carousel{
-    width: 100%;
-    margin-top: 20px;
-    padding: 50px;
-}
-.carousel h2{
-    margin-top: 0px;
-    text-align:left;    
-}*/
-
-/*Fin carousel*/
-
-/*Productos*/
+/*Productos -- *carousel*/*/
 .productos{
     background: #f2f2f2;
     padding: auto;
@@ -175,9 +163,7 @@ header{
     padding: 10px;
     justify-content: space-between;
     align-items: center;
-    
 }
-
 
 .img-promos{
     padding:5px;
@@ -187,13 +173,10 @@ header{
     border: 2px solid black;
     background-color: blanchedalmond;
     margin-top: 50px;
- 
-
-
-
-
 }
-
+ .img-promos:hover{
+    transform:scale(1.10); 
+ }
 
 /*Categorias Card*/
 .categorias{
