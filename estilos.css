@@ -104,7 +104,8 @@ header{
 }
 .buttons__cover{
     display: flex;
-    margin-top: 40px;
+    align-items: flex-end;
+    margin-top: 50px;
 }
 .btn__readmore-cover{
     padding: 14px 40px;
